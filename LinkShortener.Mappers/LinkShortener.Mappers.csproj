@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinkShortener.DTOS\LinkShortener.DTOS.csproj" />
+    <ProjectReference Include="..\LinkShortener.Entities\LinkShortener.Entities.csproj" />
+    <ProjectReference Include="..\LinkShortener.Helpers\LinkShortener.Helpers.csproj" />
+  </ItemGroup>
+
+</Project>
